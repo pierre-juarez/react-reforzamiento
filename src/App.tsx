@@ -1,3 +1,4 @@
+import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBasicos } from "./typescript/TiposBasicos";
 
@@ -9,6 +10,8 @@ const App = () => {
       <TiposBasicos />
       <hr />
       <ObjetosLiterales />
+      <hr />
+      <Funciones />
     </div>
   );
 };
