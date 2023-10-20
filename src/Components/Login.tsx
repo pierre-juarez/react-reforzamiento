@@ -52,9 +52,11 @@ export const Login = () => {
   );
 
   useEffect(() => {
-    setTimeout(() => {
-      dispatch({ type: "logout" });
-    }, 1500);
+    return () => {
+      setTimeout(() => {
+        dispatch({ type: "logout" });
+      }, 1500);
+    };
   }, []);
 
   const handleLogin = () => {

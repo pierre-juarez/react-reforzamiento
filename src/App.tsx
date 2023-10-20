@@ -1,6 +1,7 @@
 import { Contador } from "./Components/Contador";
 import { ContadorConHook } from "./Components/ContadorConHook";
 import { Login } from "./Components/Login";
+import { Users } from "./Components/Users";
 import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBasicos } from "./typescript/TiposBasicos";
@@ -21,6 +22,8 @@ const App = () => {
       <ContadorConHook />
       <hr />
       <Login />
+      <hr />
+      <Users />
     </div>
   );
 };
