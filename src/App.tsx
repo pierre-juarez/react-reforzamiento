@@ -1,5 +1,6 @@
 import { Contador } from "./Components/Contador";
 import { ContadorConHook } from "./Components/ContadorConHook";
+import { Forms } from "./Components/Forms";
 import { Login } from "./Components/Login";
 import { UsersWithHook } from "./Components/UserWithHook";
 import { Users } from "./Components/Users";
@@ -27,6 +28,8 @@ const App = () => {
       <Users />
       <hr />
       <UsersWithHook />
+      <hr />
+      <Forms />
     </div>
   );
 };
