@@ -17,10 +17,6 @@ export const Users = () => {
       params: { page: pageRef.current },
     });
 
-    console.log(
-      "🚀 ~ file: Users.tsx:20 ~ loadUsers ~ resp.data.data:",
-      resp.data.data
-    );
     if (resp.data.data.length > 0) {
       setUsers(resp.data.data);
       pageRef.current++;
